@@ -24,4 +24,5 @@ urlpatterns = [
     path('',views.index),
     path("first_app/",include('first_app.urls')),
     path("admin/", admin.site.urls),
+    # path("users",views.users,name="users")
 ]

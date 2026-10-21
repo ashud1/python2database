@@ -35,3 +35,33 @@ Migrations folder -->  configuration for the database
 
 django-admin startproject <project Name >
 ptyhon manage.py startapp <app Name >
+
+# To apply the model
+python manage.py migrate
+
+# To apply the register into appliation
+
+python manage.py makemigrations first_app
+
+# Another migate 
+
+python manage.py migrate
+
+# shell
+ python manage.py shell
+
+ # Admin interface
+
+ python manage.py createsuperuser
+Username (leave blank to use 'ashut'): ashud1
+Email address: ashutosh.dit@gmail.com
+Password: 
+Password (again): 
+Superuser created successfully.
+(myDjangoEnv) 
+
+# 1 in views.py import any model
+# 2 user view to query the mode for data that we will need 
+# 3 pass result from model to the tempalte 
+# 4 edit the template so that ready to accept the daata
+# 5 map a URL to the view

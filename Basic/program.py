@@ -1,3 +1,3 @@
 # import mymodule
-from mymodule import *
+from Basic.mymodule import *
 func_in_module()
