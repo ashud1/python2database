@@ -1,0 +1,37 @@
+Test write to simple text !
+#
+# To activate this environment, use
+#
+#     $ conda activate myDjangoEnv
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+ conda info --envs 
+# conda install -n myDjangoEnv python=3.10 --yes
+
+# pip install --upgrade django asgiref
+# django-admin startproject first_project
+
+
+first_project
+    __init__.py --> This is blank python is know is dir trated as project
+    asgi.py     --> 
+    wsgi.py     --> web server gateway , help in delpoy
+    urls.py     -->URL patterns (using regular expression)
+    settings.py --> all the project setting 
+Manage.py   --> use a log associated with web apps 
+
+first_app
+admin.py --> register your models
+apps.py --> here yes
+models --> data model
+tests.py --> funcstion to test 
+views --> request and response 
+Migrations folder -->  configuration for the database
+
+# Create Project 
+
+django-admin startproject <project Name >
+ptyhon manage.py startapp <app Name >
