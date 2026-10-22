@@ -65,3 +65,10 @@ Superuser created successfully.
 # 3 pass result from model to the tempalte 
 # 4 edit the template so that ready to accept the daata
 # 5 map a URL to the view
+
+# Forms 
+{{ form }}
+
+HTTP --> communication between the client and server 
+GET --> request data from resource
+POST --> submit data to be resource
