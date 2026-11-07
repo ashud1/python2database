@@ -72,3 +72,5 @@ Superuser created successfully.
 HTTP --> communication between the client and server 
 GET --> request data from resource
 POST --> submit data to be resource
+
+# Template filters coding example
